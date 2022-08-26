@@ -103,7 +103,7 @@ def login():
     var2= linea
   datos.close()
   var2=var2.rstrip()
-  banner()
+  cabecera()
   version()
   print(f"""{color.morado}
 QUE TE GUSTARIA HACER{color.verde}
