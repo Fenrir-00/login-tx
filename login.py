@@ -118,6 +118,8 @@ QUE TE GUSTARIA HACER{color.verde}
     banner()
     print(f"{color.verde}CONTRASEÑA CORRECTA{color.fin}")
     print()
+   else:
+    login()
   elif var5 =="2":
    banner()
    var = input(f"{color.verde}INTRODUCE LA CONTRASEÑA >> {color.fin}")
