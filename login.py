@@ -96,6 +96,7 @@ def login():
    var1="/login.py"
    salto = "\n"
    fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","a")
+   fd.write(f"cd {ubicacion}")
    fd.write(f"{salto}python {ubicacion}{var1}")
    fd.close()
   with open(ubicacion1,"r",encoding = 'utf-8') as datos:
