@@ -132,7 +132,7 @@ QUE TE GUSTARIA HACER{color.verde}
     login()
   elif var5 =="99":
    banner()
-   r= requests.get("https://raw.githubusercontent.com/Fenrir-00/investigar-web/main/version.txt")
+   r= requests.get("https://raw.githubusercontent.com/Fenrir-00/login-tx/main/version.txt")
    r=r.text
    print(r)
    if r == "version=1.0\n":
