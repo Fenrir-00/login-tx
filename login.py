@@ -45,7 +45,7 @@ def version():
  lol_py(texto)
  print()
 
-def cabecera()
+def cabecera():
  os.system("clear")
  print(f"""{color.cyan}
 
