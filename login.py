@@ -63,12 +63,10 @@ def incorrecto():
     
 def login():
  try:
- # var1("echo python /data/data/com.termux/files/home/login/login.py")
- # salto = "\n"
- # fd = open("/data/data/com.termux/files/usr/etc/bash.bashrc","a")
- # fd.write(f"{salto}{var1}")
- #fd.close()
-  with open("pass.txt","r",encoding = 'utf-8') as datos:
+  ubicacion=os.path.abspath(os.getcwd)
+  ubicacion1=ubicacion
+   ubicacion1=ubicacion1+"/pass.txt"
+  with open("ubicacion1","r",encoding = 'utf-8') as datos:
    for linea in datos:
     var2= linea
   datos.close()
